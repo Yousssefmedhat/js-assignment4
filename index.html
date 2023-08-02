@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Sign Up/Login Page</title>
+    <link rel="icon" href="login.jpg" type="image">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <span class="d-none" id="userName"></span>
+    <div class="container text-center my-5">
+        <div class="main m-auto p-5 w-75">
+            <h1 class="text-info">Smart Login System</h1>
+            <input id="signinEmail" class="form-control my-3" placeholder="Enter your e-mail" type="text">
+            <input id="signinPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+            <p id="incorrect" class="d-block"></p>
+            <button class="btn btn-outline-info w-100 my-3" onclick="login()">Login</button>
+            <p class="text-light pt-2">Don't have an account? <a href="signup.html" class="text-light">Sign Up</a></p>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
